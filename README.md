@@ -9,9 +9,9 @@ Este projeto consiste num framework prático de engenharia de dados desenvolvido
 
 ## 📂 Pipeline e Arquivos Gerados
 
-- *sim_ararangua_historico.csv:*  Cópia de segurança com os 285 registos brutos extraídos diretamente da API governamental.
-- *sim_ararangua_limpo_traduzido.csv (ou dados_mortalidade_ararangua_tratado.csv):* Base final higienizada, livre de colunas redundantes ou vazias e com todas as variáveis sociodemográficas traduzidas. Os códigos da CID-10 e as codificações de idade são convertidos de forma automática em descrições por extenso de linguagem cidadã.
-- *maiores_causas_morte_ararangua.png:* Gráfico de barras horizontais ordenadas exportado em alta resolução (300 DPI). A visualização mapeia o perfil epidemiológico local, evidenciando as doenças do sistema circulatório (80 óbitos) e as neoplasias (59 óbitos) como as principais causas de mortalidade no município.  
+- **sim_ararangua_historico.csv:**  Cópia de segurança com os 285 registos brutos extraídos diretamente da API governamental.
+- **sim_ararangua_limpo_traduzido.csv (ou dados_mortalidade_ararangua_tratado.csv):** Base final higienizada, livre de colunas redundantes ou vazias e com todas as variáveis sociodemográficas traduzidas. Os códigos da CID-10 e as codificações de idade são convertidos de forma automática em descrições por extenso de linguagem cidadã.
+- **maiores_causas_morte_ararangua.png:** Gráfico de barras horizontais ordenadas exportado em alta resolução (300 DPI). A visualização mapeia o perfil epidemiológico local, evidenciando as doenças do sistema circulatório (80 óbitos) e as neoplasias (59 óbitos) como as principais causas de mortalidade no município.  
 
 ## 🚀 Como Executar
 - Instale todas as dependências necessárias através do terminal utilizando o comando:pip install pandas numpy requests matplotlib seaborn
